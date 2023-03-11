@@ -12,8 +12,7 @@ GameObject:
   - component: {fileID: 7967812271017961252}
   - component: {fileID: 7797407538935165714}
   - component: {fileID: 7751179840263069102}
-  - component: {fileID: 746528142331672409}
-  - component: {fileID: 338611882975748451}
+  - component: {fileID: 915482648931512522}
   m_Layer: 0
   m_Name: 8SegmentsPlatform
   m_TagString: Untagged
@@ -1048,7 +1047,7 @@ MonoBehaviour:
   m_PreserveMeshAssetOnDestroy: 0
   assetGuid: 
   m_Mesh: {fileID: 0}
-  m_VersionIndex: 2073
+  m_VersionIndex: 2085
   m_IsSelectable: 1
   m_SelectedFaces: 
   m_SelectedEdges: []
@@ -1127,15 +1126,7 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!33 &746528142331672409
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4932068020545075684}
-  m_Mesh: {fileID: 0}
---- !u!64 &338611882975748451
+--- !u!64 &915482648931512522
 MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1146,6 +1137,6 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 4
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
