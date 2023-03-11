@@ -5665,6 +5665,7 @@ GameObject:
   - component: {fileID: 1547925272}
   - component: {fileID: 1547925271}
   - component: {fileID: 1547925275}
+  - component: {fileID: 1547925276}
   m_Layer: 0
   m_Name: Ball
   m_TagString: Untagged
@@ -5766,6 +5767,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &1547925276
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1547925270}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2a81e09e919d8e4eae20d171ffc093f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _collisionParticlePrefab: {fileID: 8033704847824090997, guid: 651aeae92dbc7b9469339d912988774f, type: 3}
 --- !u!850595691 &1566208679
 LightingSettings:
   m_ObjectHideFlags: 0
@@ -7471,60 +7485,3 @@ PrefabInstance:
       objectReference: {fileID: 153227918}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9cf299ee93523f64ea8aa74d1b58b465, type: 3}
---- !u!1001 &8898529298683129132
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 336379119332598779, guid: 651aeae92dbc7b9469339d912988774f, type: 3}
-      propertyPath: m_RootOrder
-      value: 11
-      objectReference: {fileID: 0}
-    - target: {fileID: 336379119332598779, guid: 651aeae92dbc7b9469339d912988774f, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 336379119332598779, guid: 651aeae92dbc7b9469339d912988774f, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 336379119332598779, guid: 651aeae92dbc7b9469339d912988774f, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 336379119332598779, guid: 651aeae92dbc7b9469339d912988774f, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 336379119332598779, guid: 651aeae92dbc7b9469339d912988774f, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 336379119332598779, guid: 651aeae92dbc7b9469339d912988774f, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 336379119332598779, guid: 651aeae92dbc7b9469339d912988774f, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 336379119332598779, guid: 651aeae92dbc7b9469339d912988774f, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 336379119332598779, guid: 651aeae92dbc7b9469339d912988774f, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 336379119332598779, guid: 651aeae92dbc7b9469339d912988774f, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5039213083804863656, guid: 651aeae92dbc7b9469339d912988774f, type: 3}
-      propertyPath: m_Name
-      value: BallCollisionParticle
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 651aeae92dbc7b9469339d912988774f, type: 3}
