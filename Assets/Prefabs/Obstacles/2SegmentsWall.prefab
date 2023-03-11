@@ -12,8 +12,7 @@ GameObject:
   - component: {fileID: 6069028548452130836}
   - component: {fileID: 1048484972344817716}
   - component: {fileID: 6987697214681212051}
-  - component: {fileID: 5644865428842395093}
-  - component: {fileID: 691176809074547704}
+  - component: {fileID: -582707085831915691}
   m_Layer: 0
   m_Name: 2SegmentsWall
   m_TagString: Untagged
@@ -370,27 +369,11 @@ MonoBehaviour:
   m_PreserveMeshAssetOnDestroy: 0
   assetGuid: 
   m_Mesh: {fileID: 0}
-  m_VersionIndex: 2620
+  m_VersionIndex: 2636
   m_IsSelectable: 1
-  m_SelectedFaces: 0200000004000000
-  m_SelectedEdges:
-  - a: 8
-    b: 9
-  - a: 10
-    b: 8
-  - a: 9
-    b: 11
-  - a: 11
-    b: 10
-  - a: 16
-    b: 17
-  - a: 18
-    b: 16
-  - a: 17
-    b: 19
-  - a: 19
-    b: 18
-  m_SelectedVertices: 08000000090000000a0000000b00000010000000110000001200000013000000
+  m_SelectedFaces: 
+  m_SelectedEdges: []
+  m_SelectedVertices: 
 --- !u!114 &1048484972344817716
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -465,15 +448,7 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!33 &5644865428842395093
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7711501442793406837}
-  m_Mesh: {fileID: 0}
---- !u!64 &691176809074547704
+--- !u!64 &-582707085831915691
 MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -484,6 +459,6 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 4
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
