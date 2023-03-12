@@ -5665,9 +5665,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a60f792054299ee40bdf92e285d4ab67, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _startPlatform: {fileID: 7168249180056655822, guid: cb6016ca1936418408e1417720f55ffd, type: 3}
-  _finishPlatform: {fileID: 5968469137867100382, guid: 480f90552131b484dbb3c45792f0a66e, type: 3}
-  _platformVariants:
+  _platformVariantCount: 0
+  _offsetBetweenPlatforms: 0
+  _startPlatformPrefab: {fileID: 7168249180056655822, guid: cb6016ca1936418408e1417720f55ffd, type: 3}
+  _finishPlatformPrefab: {fileID: 5968469137867100382, guid: 480f90552131b484dbb3c45792f0a66e, type: 3}
+  _platformVariantsPrefab:
   - {fileID: 7168249180056655822, guid: 6865245dc22138646bbd759b20b7c097, type: 3}
   - {fileID: -4857626445811997263, guid: 9cf299ee93523f64ea8aa74d1b58b465, type: 3}
   - {fileID: 3416908007954552521, guid: 9c3437c7d992c1543a17b7a9cba33722, type: 3}
