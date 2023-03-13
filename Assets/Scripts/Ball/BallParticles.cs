@@ -5,12 +5,10 @@ using UnityEngine;
 public class BallParticles : MonoBehaviour
 {
     [SerializeField] private ParticleSystem _collisionParticlePrefab;
-    private ParticleSystem _collisionParticle;
+    private ParticleSystem _collisionParticles;
 
-    private void Start()
-    {
-        _collisionParticle = Instantiate(_collisionParticlePrefab);
-    }
+    private void Start() => 
+        _collisionParticles = Instantiate(_collisionParticlePrefab);
 
     private void OnCollisionEnter(Collision collision) =>
         EmitCollisionParticles(collision);
@@ -19,7 +17,7 @@ public class BallParticles : MonoBehaviour
     private void EmitCollisionParticles( Collision other)
     {
         Vector3 collisionPosition = other.contacts[0].point;
-        _collisionParticlePrefab.transform.position=collisionPosition;
-        _collisionParticle.Play();
+        _collisionParticles.transform.position=collisionPosition;
+        _collisionParticles.Play();
     }
 }
