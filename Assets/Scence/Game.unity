@@ -678,10 +678,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1539176635}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a60f792054299ee40bdf92e285d4ab67, type: 3}
+  m_Script: {fileID: 11500000, guid: d5f106a26af60bb468a1157c0e70f134, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _towerGenerationSettings: {fileID: 11400000, guid: 319c317fa181eda48989ddca4b10caaf, type: 2}
+  _towerGenerationSettings: {fileID: 11400000, guid: c2808f0a4c49878499544e268db6339b, type: 2}
   _transformTower: {fileID: 1539176641}
 --- !u!1 &1547925270
 GameObject:
