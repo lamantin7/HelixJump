@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 7797407538935165714}
   - component: {fileID: 7751179840263069102}
   - component: {fileID: 915482648931512522}
+  - component: {fileID: -4283861291462233660}
   m_Layer: 0
   m_Name: 8SegmentsPlatform
   m_TagString: Untagged
@@ -1140,3 +1141,15 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
+--- !u!114 &-4283861291462233660
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4932068020545075684}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 79a13afb2eb259f448c958cf47c08326, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
