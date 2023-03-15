@@ -919,6 +919,7 @@ GameObject:
   - component: {fileID: 1547925275}
   - component: {fileID: 1547925276}
   - component: {fileID: 1547925277}
+  - component: {fileID: 1547925278}
   m_Layer: 0
   m_Name: Ball
   m_TagString: Untagged
@@ -985,6 +986,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _collisionParticlePrefab: {fileID: 781876544102141807, guid: 651aeae92dbc7b9469339d912988774f, type: 3}
+  _spotParticlesPrefab: {fileID: 2911466987097731121, guid: 32ea0fe2c39c71b45bdc0d8cb8ba84a7, type: 3}
+  _destroyParticlesPrefab: {fileID: 781876544102141807, guid: a44f3b444c7df6045bf8737075d22a9f, type: 3}
 --- !u!114 &1547925277
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1102,6 +1105,21 @@ MonoBehaviour:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
+--- !u!114 &1547925278
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1547925270}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7fd575b01c8d56c459c589ca62c2b98b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _bounce: {fileID: 1547925277}
+  _particles: {fileID: 1547925276}
+  _ball: {fileID: 1547925274}
 --- !u!850595691 &1566208679
 LightingSettings:
   m_ObjectHideFlags: 0
