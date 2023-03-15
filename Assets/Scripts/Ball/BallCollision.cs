@@ -5,7 +5,8 @@ public class BallCollision : MonoBehaviour
 {
     [SerializeField] private BallBounce _bounce;
     [SerializeField] private BallParticles _particles;
-    [SerializeField] private Transform _ball;
+    [SerializeField] private BallDestroyer _destroyer;
+
 
     private bool _collided;
 
@@ -13,7 +14,7 @@ public class BallCollision : MonoBehaviour
     {
         if (collision.gameObject.TryGetComponent(out PlatformObstacle _))
         {
-            Destroy();
+            _destroyer.Destroy();
             return;
         }
         if (_collided)
@@ -33,11 +34,7 @@ public class BallCollision : MonoBehaviour
         _collided=false;
     }
 
-    private void Destroy()
-    {
-        _particles.EmitDestroyParticles(_ball.position);
-        Destroy(_ball.gameObject);
-    }
+  
 
 
 }
