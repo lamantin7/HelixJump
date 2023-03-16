@@ -1302,7 +1302,7 @@ MonoBehaviour:
   _rigidbody: {fileID: 1547925275}
   _mesh: {fileID: 23361894}
   _bounceData:
-    _force: 5
+    _force: 4
     _maxHeight: 5
   _scaleCurves:
     _xCurve:
